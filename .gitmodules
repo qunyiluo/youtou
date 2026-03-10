@@ -1,0 +1,6 @@
+[submodule "app"]
+	path = app
+	url = https://github.com/qunyiluo/youtou_app
+[submodule "service"]
+	path = service
+	url = https://github.com/qunyiluo/youtou_service

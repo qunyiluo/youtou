@@ -1,0 +1,100 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.4.11519.219
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{D14A13D3-A23B-44A5-B5E0-B78B3385CFFE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "service", "service", "{FFFB19D1-413C-4DF9-91D9-98887D22274C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "youtou.service.web", "service\services\youtou.service.web\youtou.service.web.csproj", "{658ED7EC-6CE5-4FF5-993D-2AA65A5C221E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "model", "model", "{BAD8DDEB-2DBB-4558-812F-B03F66FF5E54}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "database", "database", "{92A65A33-BFE1-40EB-802A-DFB8F1F6D71E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "youtou.database.mysql", "service\services\youtou.database.mysql\youtou.database.mysql.csproj", "{7F5A4806-24F2-49B1-BEDC-CE8F1C87A09D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "youtou.database.mongodb", "service\services\youtou.database.mongodb\youtou.database.mongodb.csproj", "{3626F676-8FA3-433B-AE03-9BF7DE7D8D01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "youtou.model.mysql", "service\services\youtou.model.mysql\youtou.model.mysql.csproj", "{73FA6459-01ED-400D-AF00-B84EBF245B81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "youtou.model.mongodb", "service\services\youtou.model.mongodb\youtou.model.mongodb.csproj", "{F60A54A1-4E8C-49FB-8C52-D93E54A2A7FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "youtou.common.i18n", "service\youtou.common.i18n\youtou.common.i18n.csproj", "{7B0D924B-66DC-4E57-880A-63E81540A9A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "youtou.common.log", "service\youtou.common.log\youtou.common.log.csproj", "{9886EC08-71DA-4178-BBE8-4BF12B89B134}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "youtou.common.msg", "service\youtou.common.msg\youtou.common.msg.csproj", "{1029C807-4ACB-476A-97D3-7C691B349528}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "youtou.common.auth", "service\youtou.common.auth\youtou.common.auth.csproj", "{3FF6F80B-A1B5-4218-A768-04F0A5F54BFE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "frontend", "frontend", "{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}"
+ProjectSection(SolutionItems) = preProject
+app\package.json = app\package.json
+app\vite.config.js = app\vite.config.js
+app\index.html = app\index.html
+EndProjectSection
+EndProjectGlobal
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{658ED7EC-6CE5-4FF5-993D-2AA65A5C221E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{658ED7EC-6CE5-4FF5-993D-2AA65A5C221E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{658ED7EC-6CE5-4FF5-993D-2AA65A5C221E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{658ED7EC-6CE5-4FF5-993D-2AA65A5C221E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F5A4806-24F2-49B1-BEDC-CE8F1C87A09D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F5A4806-24F2-49B1-BEDC-CE8F1C87A09D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F5A4806-24F2-49B1-BEDC-CE8F1C87A09D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F5A4806-24F2-49B1-BEDC-CE8F1C87A09D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3626F676-8FA3-433B-AE03-9BF7DE7D8D01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3626F676-8FA3-433B-AE03-9BF7DE7D8D01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3626F676-8FA3-433B-AE03-9BF7DE7D8D01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3626F676-8FA3-433B-AE03-9BF7DE7D8D01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73FA6459-01ED-400D-AF00-B84EBF245B81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73FA6459-01ED-400D-AF00-B84EBF245B81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73FA6459-01ED-400D-AF00-B84EBF245B81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73FA6459-01ED-400D-AF00-B84EBF245B81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F60A54A1-4E8C-49FB-8C52-D93E54A2A7FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F60A54A1-4E8C-49FB-8C52-D93E54A2A7FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F60A54A1-4E8C-49FB-8C52-D93E54A2A7FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F60A54A1-4E8C-49FB-8C52-D93E54A2A7FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B0D924B-66DC-4E57-880A-63E81540A9A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B0D924B-66DC-4E57-880A-63E81540A9A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B0D924B-66DC-4E57-880A-63E81540A9A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B0D924B-66DC-4E57-880A-63E81540A9A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9886EC08-71DA-4178-BBE8-4BF12B89B134}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9886EC08-71DA-4178-BBE8-4BF12B89B134}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9886EC08-71DA-4178-BBE8-4BF12B89B134}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9886EC08-71DA-4178-BBE8-4BF12B89B134}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1029C807-4ACB-476A-97D3-7C691B349528}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1029C807-4ACB-476A-97D3-7C691B349528}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1029C807-4ACB-476A-97D3-7C691B349528}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1029C807-4ACB-476A-97D3-7C691B349528}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FF6F80B-A1B5-4218-A768-04F0A5F54BFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FF6F80B-A1B5-4218-A768-04F0A5F54BFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FF6F80B-A1B5-4218-A768-04F0A5F54BFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FF6F80B-A1B5-4218-A768-04F0A5F54BFE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{658ED7EC-6CE5-4FF5-993D-2AA65A5C221E} = {FFFB19D1-413C-4DF9-91D9-98887D22274C}
+		{7F5A4806-24F2-49B1-BEDC-CE8F1C87A09D} = {92A65A33-BFE1-40EB-802A-DFB8F1F6D71E}
+		{3626F676-8FA3-433B-AE03-9BF7DE7D8D01} = {92A65A33-BFE1-40EB-802A-DFB8F1F6D71E}
+		{73FA6459-01ED-400D-AF00-B84EBF245B81} = {BAD8DDEB-2DBB-4558-812F-B03F66FF5E54}
+		{F60A54A1-4E8C-49FB-8C52-D93E54A2A7FD} = {BAD8DDEB-2DBB-4558-812F-B03F66FF5E54}
+		{7B0D924B-66DC-4E57-880A-63E81540A9A1} = {D14A13D3-A23B-44A5-B5E0-B78B3385CFFE}
+		{9886EC08-71DA-4178-BBE8-4BF12B89B134} = {D14A13D3-A23B-44A5-B5E0-B78B3385CFFE}
+		{1029C807-4ACB-476A-97D3-7C691B349528} = {D14A13D3-A23B-44A5-B5E0-B78B3385CFFE}
+		{3FF6F80B-A1B5-4218-A768-04F0A5F54BFE} = {D14A13D3-A23B-44A5-B5E0-B78B3385CFFE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C91125C5-69CC-4CB1-A10D-730C9EEDB362}
+	EndGlobalSection
+EndGlobal
+
+
