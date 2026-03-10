@@ -1,4 +1,4 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 18
 VisualStudioVersion = 18.4.11519.219
@@ -35,7 +35,8 @@ app\package.json = app\package.json
 app\vite.config.js = app\vite.config.js
 app\index.html = app\index.html
 EndProjectSection
-EndProjectGlobal
+EndProject
+Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -96,5 +97,6 @@ EndProjectGlobal
 		SolutionGuid = {C91125C5-69CC-4CB1-A10D-730C9EEDB362}
 	EndGlobalSection
 EndGlobal
+
 
 
